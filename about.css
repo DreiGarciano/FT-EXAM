@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+.navigation {
+  background-color: #fff;
+  height: 100px;
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+}
+
+.navigation ul li {
+  display: inline;
+  padding-left: 30px;
+  font-size: 25px;
+}
+
+.hyperlinks {
+  text-decoration: none;
+  color: #565656;
+  font-family: Roboto;
+}
+
+#background {
+  padding-top: 5px;
+  padding-left: 15px;
+  height: 100px;
+  width: 250px;
+  float: inline-start;
+}
+
+#contact {
+  margin-left: 525px;
+  height: 60px;
+  width: 150px;
+  background: #ef750f;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+#about {
+    font-family: Roboto;
+    letter-spacing: 5px;
+}
+.filler1 {
+    background: #b5121b;
+    margin-top: 15px;
+    height: 35px;
+}
+
+.firstsection {
+    background: url(kennybg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.secondsection {
+    background: url(kennylayout.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.footer-list {
+    padding-top: 10px;
+    text-align: center;
+    background-color: #231f20;
+  }
+  
+  .footer-list ul li {
+    display: inline-flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+  }
+  
+  .footer-list a {
+    color: #838383;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .footer-list a:hover {
+    color: #aeaeae;
+  }
